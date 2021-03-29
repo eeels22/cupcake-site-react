@@ -1,7 +1,7 @@
-// title and fileName are properties of the object props.
+// title and fileName etc are properties of the object props.
 // Without curly braces you need to call props.title etc
 // Add default values by passing them in the argument with the assignment operator
-export default function Product({title = "Cupcake", price = 200, perUnit, fileName, alt}) {
+export default function Product({title = "Cupcake", price = 200, perUnit = "kr", fileName, alt}) {
     const imageObject = require(`../assets/cake-photos/${fileName}`);
     const imageURL = imageObject.default;
 

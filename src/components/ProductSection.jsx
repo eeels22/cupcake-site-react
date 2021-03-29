@@ -1,4 +1,6 @@
-export default ProductSection({heading, text, productArray}) {
+import Heading2WithParagraph from "../components/Heading2WithParagraph";
+
+export default function ProductSection({heading, text, productArray}) {
     return(
         <section className="not-hero product-section">
         <Heading2WithParagraph

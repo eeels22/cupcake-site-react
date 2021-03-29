@@ -13,12 +13,13 @@ import Footer from "./components/Footer";
 // import data
 import cakesJSON from "./data/cakes.json";
 import cupcakesJSON from "./data/cupcakes.json";
+import ProductSection from "./components/ProductSection";
 
 // adds brand icons to library so they can be referenced by icon name as a string anywhere else in our app
 library.add(fab, faEnvelopeOpen);
 
 export default function App() {
-  const CupcakesArray = cupcakesJSON.map((item) => {
+  const cupcakesArray = cupcakesJSON.map((item) => {
     return (
       <Product
         key={item.id}
@@ -26,21 +27,23 @@ export default function App() {
         price={item.price}
         perUnit=" kr for 6"
         fileName={item.fileName}
-        alt={item.alt}        
+        alt={item.alt}
       />
     );
   });
 
-  const cakesArray = cakesJSON.map(item => {
-    return <Product 
-    key={item.id} 
-    title={item.title} 
-    price={item.price} 
-    perUnit=" kr"
-    fileName={item.fileName} 
-    alt={item.alt}/>
+  const cakesArray = cakesJSON.map((item) => {
+    return (
+      <Product
+        key={item.id}
+        title={item.title}
+        price={item.price}
+        perUnit=" kr"
+        fileName={item.fileName}
+        alt={item.alt}
+      />
+    );
   });
-
 
   return (
     <div className="App">
@@ -55,20 +58,16 @@ export default function App() {
             linkText="Skip to wedding cakes"
           />
         </section>
-        <section className="not-hero product-section">
-          <Heading2WithParagraph
-            heading="Cupcakes"
-            text="Our cupcakes are a perfect treat for yourself or a special way to let a loved one know you're thinking of them. With six cupcakes in each order, you can spread the joy further. Yum!"
-          />
-          <div className="product-grid">{CupcakesArray}</div>
-        </section>
-        <section className="not-hero product-section">
-          <Heading2WithParagraph
-            heading="Wedding cakes"
-            text="On your special day, you can trust us to deliver a masterpiece to wow your guest. Whatever your wedding theme, we have a creation to suit."
-          />
-          <div className="product-grid">{cakesArray}</div>
-        </section>
+        <ProductSection
+          heading="Cupcakes"
+          text="Our cupcakes are a perfect treat for yourself or a special way to let a loved one know you're thinking of them. With six cupcakes in each order, you can spread the joy further. Yum!"
+          productArray={cupcakesArray}
+        />
+        <ProductSection
+          heading="Wedding cakes"
+          text="On your special day, you can trust us to deliver a masterpiece to wow your guest. Whatever your wedding theme, we have a creation to suit."
+          productArray={cakesArray}
+        />
         <hr />
         <Heading2WithParagraph
           className="not-hero"
