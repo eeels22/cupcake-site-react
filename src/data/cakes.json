@@ -3,18 +3,48 @@
     "id": "1",
     "title": "Minimalist chic",
     "price": "2.000",
+    "fileName": "wed-simple.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Summer figs",
+    "price": "2.100",
     "fileName": "wed-fruit.jpg"
   },
   {
-    "id": "2",
+    "id": "3",
     "title": "Red and white",
     "price": "2.150",
     "fileName": "wed-ridges.jpg"
   },
   {
-    "id": "2",
-    "title": "Red and white",
-    "price": "2.150",
-    "fileName": "wed-ridges.jpg"
+    "id": "4",
+    "title": "Love you four-ever",
+    "price": "2.500",
+    "fileName": "wed-classic.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Sweetheart rose",
+    "price": "2.050",
+    "fileName": "wed-rose-peach.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Elegant souls",
+    "price": "2.100",
+    "fileName": "wed-elegant.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Forest dream",
+    "price": "1.900",
+    "fileName": "wed-bare.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Two together",
+    "price": "1.300",
+    "fileName": "wed-rustic.jpg"
   }
 ]
