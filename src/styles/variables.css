@@ -1,0 +1,18 @@
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-sea-green: #1C8271;
+  --color-brown: #553914;
+  --color-pink: #c54496;
+  --color-cyan: #83d2dd;
+  --color-cyan-transparency: rgba(131, 210, 221, 0, 1);
+
+  /* Spacing */
+  --space-extra-small: 4px;
+  --space-small: 8px;
+  --space-medium-small: 12px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-extra-big: 36px;
+  --space-extra-extra-big: 40px;
+}

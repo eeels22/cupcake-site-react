@@ -1,0 +1,21 @@
+/* Tags*/
+
+footer {
+  background-color: var(--color-sea-green);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: auto;
+}
+
+/* Classes */
+
+.footer-link {
+  color: var(--color-white);
+  padding: var(--space-small) var(--space-small);
+}
+
+.social-icon {
+  /* Gap between social icon and link text*/
+  margin-right: var(--space-small);
+}

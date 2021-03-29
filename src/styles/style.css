@@ -1,0 +1,9 @@
+/* Globals */
+@import "./variables.css";
+@import "./shared.css";
+@import "./nav.css";
+@import "./page-header.css";
+@import "./page-footer.css";
+
+/* Specifics */
+@import "./products.css";

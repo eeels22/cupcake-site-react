@@ -1,0 +1,16 @@
+/* Tags */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Classes */
+.logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin: var(--space-small) 0 0 0;
+}

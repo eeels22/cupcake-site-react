@@ -1,0 +1,22 @@
+/* Tags */ 
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: var(--space-small);
+  background-color: var(--color-sea-green);
+}
+
+nav a {
+  color: var(--color-white);
+  padding: var(--space-small) var(--space-small);
+  border-radius: 5%;
+}
+
+/* Tablets */
+@media (min-width: 550px) {
+}
+
+/* Desktops */
+@media (min-width: 750px) {
+}
