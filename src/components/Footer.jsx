@@ -1,14 +1,16 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 export default function Footer() {
     return( 
         <footer className="grid-footer">
             <a href="https://www.instagram.com/munamii.cakery/" className="footer-link"
-            ><i className="fab fa-instagram social-icon"></i>Instagram</a
+            ><FontAwesomeIcon icon={["fab", "instagram" ]} /> Instagram</a
         >
         <a href="https://www.facebook.com/munamiicupcakes/" className="footer-link"
-            ><i className="fab fa-facebook-square social-icon"></i>Facebook</a
+            ><FontAwesomeIcon icon={["fab", "facebook-square" ]} /> Facebook</a
         >
         <a href="mailto:softwaredevelopmentacademy@gmail.com" className="footer-link"
-            ><i className="far fa-envelope-open social-icon"></i>Email</a
+            ><FontAwesomeIcon icon="envelope-open" /> Email</a
         >
         </footer>
     );
