@@ -11,7 +11,7 @@ import Product from "./components/Product";
 import Heading2WithParagraph from "./components/Heading2WithParagraph";
 import Footer from "./components/Footer";
 // import data
-//import cakesJSON from "./data/cakes.json";
+import cakesJSON from "./data/cakes.json";
 import cupcakesJSON from "./data/cupcakes.json";
 
 // adds brand icons to library so they can be referenced by icon name as a string anywhere else in our app
@@ -24,16 +24,23 @@ export default function App() {
         key={item.id}
         title={item.title}
         price={item.price}
+        perUnit=" kr for 6"
         fileName={item.fileName}
-        alt={item.alt}
+        alt={item.alt}        
       />
     );
   });
 
-  /*const CakesArray = cakesJSON.map(item => {
-    return <Product key={item.id} title={item.title} price={item.price} fileName={item.fileName} alt={item.alt}/>
+  const cakesArray = cakesJSON.map(item => {
+    return <Product 
+    key={item.id} 
+    title={item.title} 
+    price={item.price} 
+    perUnit=" kr"
+    fileName={item.fileName} 
+    alt={item.alt}/>
   });
-  */
+
 
   return (
     <div className="App">
@@ -48,12 +55,19 @@ export default function App() {
             linkText="Skip to wedding cakes"
           />
         </section>
-        <section className="cupcakes-section not-hero product-section">
+        <section className="not-hero product-section">
           <Heading2WithParagraph
             heading="Cupcakes"
             text="Our cupcakes are a perfect treat for yourself or a special way to let a loved one know you're thinking of them. With six cupcakes in each order, you can spread the joy further. Yum!"
           />
-          <div className="cupcake-grid product-grid">{CupcakesArray}</div>
+          <div className="product-grid">{CupcakesArray}</div>
+        </section>
+        <section className="not-hero product-section">
+          <Heading2WithParagraph
+            heading="Wedding cakes"
+            text="On your special day, you can trust us to deliver a masterpiece to wow your guest. Whatever your wedding theme, we have a creation to suit."
+          />
+          <div className="product-grid">{cakesArray}</div>
         </section>
         <hr />
         <Heading2WithParagraph
