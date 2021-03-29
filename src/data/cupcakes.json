@@ -3,48 +3,56 @@
     "id": "1",
     "title": "Vanilla sprinkles",
     "price": "210",
-    "fileName": "vanilla-sprinkles.jpg"
+    "fileName": "vanilla-sprinkles.jpg",
+    "alt": "Cupcakes with pink frosting, colourful sprinkles and a glacee cherry"
   },
   {
     "id": "2",
     "title": "Black forest",
     "price": "220",
-    "fileName": "blackforest.jpg"
+    "fileName": "blackforest.jpg",
+    "alt": "Chocolate cupcakes with light frosting, chocolate layer and real cherry on top"
   },
   {
     "id": "3",
     "title": "Lemon floral",
     "price": "250",
-    "fileName": "lemon-floral.jpg"
+    "fileName": "lemon-floral.jpg",
+    "alt": "Three cupcakes in gold cases topped with green frosting and real flowers"
   },
   {
     "id": "4",
     "title": "Wild strawberries",
     "price": "240",
-    "fileName": "strawberry-coffee.jpg"
+    "fileName": "strawberry-coffee.jpg",
+    "alt": "Cupcakes with rainbow coloured frosting"
   },
   {
     "id": "5",
     "title": "Pastel rainbow",
     "price": "180",
-    "fileName": "vanilla-rainbow.jpg"
+    "fileName": "vanilla-rainbow.jpg",
+    "alt": "Cupcakes with pink frosting, colourful sprinkles and a glacee cherry"
   },
   {
     "id": "6",
     "title": "Walnut cream",
     "price": "200",
-    "fileName": "walnut.jpg"
+    "fileName": "walnut.jpg",
+    "alt": "Cupcakes in silver foil cases with cream frosting, chocolate shavings and sprinkles."
   },
   {
     "id": "7",
     "title": "Dark chocolate fudge",
     "price": "220",
-    "fileName": "chocolate-fudge.jpg"
+    "fileName": "chocolate-fudge.jpg",
+    "alt": "A chocolate cupcake with chocolate frosting displayed on a log plate."
   },
   {
     "id": "8",
     "title": "Strawberry-shake",
     "price": "220",
-    "fileName": "strawberry-yogurt.jpg"
+    "fileName": "strawberry-yogurt.jpg",
+    "alt": "Cupcakes with pink frosting and a white chocolate covered strawberry"
   }
 ]

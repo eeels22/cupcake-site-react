@@ -3,48 +3,56 @@
     "id": "1",
     "title": "Minimalist chic",
     "price": "2.000",
-    "fileName": "wed-simple.jpg"
+    "fileName": "wed-simple.jpg",
+    "alt": "Three-layer white iced wedding cake with rose bouquet on top"
   },
   {
     "id": "2",
     "title": "Summer figs",
     "price": "2.100",
-    "fileName": "wed-fruit.jpg"
+    "fileName": "wed-fruit.jpg",
+    "alt": "Two-layer wedding cake with light frosting, fresh figs and leaves"
   },
   {
     "id": "3",
     "title": "Red and white",
     "price": "2.150",
-    "fileName": "wed-ridges.jpg"
+    "fileName": "wed-ridges.jpg",
+    "alt": "Three-layer white wedding cake with red and white flowers"
   },
   {
     "id": "4",
     "title": "Love you four-ever",
     "price": "2.500",
-    "fileName": "wed-classic.jpg"
+    "fileName": "wed-classic.jpg",
+    "alt": "Four-layer white wedding cake with textured icing and fresh flowers"
   },
   {
     "id": "5",
     "title": "Sweetheart rose",
     "price": "2.050",
-    "fileName": "wed-rose-peach.jpg"
+    "fileName": "wed-rose-peach.jpg",
+    "alt": "Three-layer white wedding cake with light pink roses and gold decorative topper"
   },
   {
     "id": "6",
     "title": "Elegant souls",
     "price": "2.100",
-    "fileName": "wed-elegant.jpg"
+    "fileName": "wed-elegant.jpg",
+    "alt": "Three-later white wedding cake with rose bouquet on middle layer."
   },
   {
     "id": "7",
     "title": "Forest dream",
     "price": "1.900",
-    "fileName": "wed-bare.jpg"
+    "fileName": "wed-bare.jpg",
+    "alt": "Chocolate layered wedding cake with bare sides and forest berries."
   },
   {
     "id": "8",
     "title": "Two together",
     "price": "1.300",
-    "fileName": "wed-rustic.jpg"
+    "fileName": "wed-rustic.jpg",
+    "alt": "Two-layer wedding cake with thin frosting and yellow and white flowers"
   }
 ]
