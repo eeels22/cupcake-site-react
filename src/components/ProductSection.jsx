@@ -1,9 +1,10 @@
-import Heading2WithParagraph from "../components/Heading2WithParagraph";
+import H2WithParagraph from "../components/H2WithParagraph";
 
-export default function ProductSection({heading, text, productArray}) {
+export default function ProductSection({heading, text, productArray, id}) {
     return(
-        <section className="not-hero product-section">
-        <Heading2WithParagraph
+        // should be ok if no id provided
+        <section className="not-hero product-section" id={id}> 
+        <H2WithParagraph
           heading={heading}
           text={text}
         />

@@ -4,18 +4,18 @@ import "./styles/style.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
-// import my components
+// import our components
 import Header from "./components/Header";
 import PageIntro from "./components/PageIntro";
 import Product from "./components/Product";
-import Heading2WithParagraph from "./components/Heading2WithParagraph";
+import H2WithParagraph from "./components/H2WithParagraph";
+import ProductSection from "./components/ProductSection";
 import Footer from "./components/Footer";
 // import data
 import cakesJSON from "./data/cakes.json";
 import cupcakesJSON from "./data/cupcakes.json";
-import ProductSection from "./components/ProductSection";
 
-// adds brand icons to library so they can be referenced by icon name as a string anywhere else in our app
+// adds brand icons to library so they can be referenced by icon name as a string anywhere in our app
 library.add(fab, faEnvelopeOpen);
 
 export default function App() {
@@ -67,9 +67,10 @@ export default function App() {
           heading="Wedding cakes"
           text="On your special day, you can trust us to deliver a masterpiece to wow your guest. Whatever your wedding theme, we have a creation to suit."
           productArray={cakesArray}
+          id="wedding-cake-section"
         />
         <hr />
-        <Heading2WithParagraph
+        <H2WithParagraph
           className="not-hero"
           heading="How to order"
           text="Head over to our Contact page to enquire about a product. We would love to hear from you!"
